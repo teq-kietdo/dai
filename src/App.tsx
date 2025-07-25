@@ -1,10 +1,6 @@
-import { useEffect, useState } from "react";
-
 import "./App.css";
 
 function App() {
-  const [data, setData] = useState(null);
-
   const openFormInNewTab = (url: string) => {
     const form = document.createElement("form");
     form.method = "POST";
